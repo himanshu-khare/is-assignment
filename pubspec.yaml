@@ -1,0 +1,49 @@
+name: is_assignment
+description: IS Assignment.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  flutter_svg: 
+  retrofit: ^3.3.1
+  dio:
+
+dev_dependencies:
+  build_runner: 2.4.6
+  retrofit_generator: 4.2.0
+  flutter_gen_runner: any
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.1.0
+
+
+flutter: 
+  uses-material-design: true
+  generate: true
+  assets: 
+    - assets/fonts/
+    - assets/images/
+  fonts: 
+    - family: Nunito
+      fonts: 
+        - asset: assets/fonts/NunitoExtraBold.ttf
+          weight: 700
+        - asset: assets/fonts/NunitoSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/NunitoBold.ttf
+          weight: 500
+        - asset: assets/fonts/NunitoMedium.ttf
+          weight: 400
+        - asset: assets/fonts/NunitoRegular.ttf
+          weight: 300
+   
+
